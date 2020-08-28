@@ -23,7 +23,7 @@
 
 * tutorial
 
-```bash
+```shell
 $ make
 $ ./img_hide [option] [cover_bmp] [secret_data]
 -w, --write: Write the secret data to the cover_bmp
@@ -33,7 +33,7 @@ $ ./img_hide [option] [cover_bmp] [secret_data]
 
 * example
 
-```bash
+```shell
 $ ./img_hide -w -b 3 [cover_bmp] [secret_data]
 ```
 
@@ -78,7 +78,7 @@ $ ./img_hide -w -b 3 [cover_bmp] [secret_data]
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -w output.bmp test_out.bmp
 
 # output
@@ -95,7 +95,7 @@ Done!
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -e output.bmp test_out.bmp
 
 # output
@@ -115,7 +115,7 @@ Done!
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -w -b 7 output.bmp test_out.bmp
 
 # output
@@ -133,7 +133,7 @@ Done!
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -e -b 7 output.bmp test_out.bmp
 
 # output
@@ -158,7 +158,7 @@ Done!
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -w -b 5 output.bmp test3.c
 
 # output
@@ -175,7 +175,7 @@ Done!
 
 * 輸入
 
-```bash
+```shell
 $ ./img_hide -e -b 5 output.bmp test3.c
 
 # output
